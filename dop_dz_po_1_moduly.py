@@ -1,0 +1,19 @@
+grades =[[5,3,3,5,4],[2,2,2,3],[4,5,5,2],[4,4,3],[5,5,5,4,5]]
+students = {'Jonnhy', 'Bilbo', 'Steve', 'Khendrick', 'Aaron'}
+students_slovar= dict(zip(students, grades))
+a= students_slovar.get('Jonnhy')
+b= students_slovar.get('Bilbo')
+c= students_slovar.get('Khendrick')
+d= students_slovar.get('Aaron')
+e= students_slovar.get('Steve')
+a= sum(a)/len(a)
+b= sum(b)/len(b)
+c= sum(c)/len(c)
+d= sum(d)/len(d)
+e= sum(e)/len(e)
+students_slovar ['Jonnhy'] = a
+students_slovar ['Bilbo'] = b
+students_slovar ['Khendrick'] = c
+students_slovar ['Aaron'] = d
+students_slovar ['Steve'] = e
+print (students_slovar)
